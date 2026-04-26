@@ -1,6 +1,7 @@
 resource "azurerm_resource_group" "terraform_resource_group" {
   name     = var.resource_group_name
   location = var.resource_group_location_main
+  tags = local.tags
 }
 
 resource "azurerm_virtual_network" "vnet1" {
@@ -11,6 +12,7 @@ resource "azurerm_virtual_network" "vnet1" {
   depends_on = [ 
     azurerm_resource_group.terraform_resource_group
      ]
+  tags = local.tags
 }
 
 
@@ -22,6 +24,7 @@ resource "azurerm_virtual_network" "vnet2" {
   depends_on = [ 
     azurerm_resource_group.terraform_resource_group
      ]
+  tags = local.tags
 }
 
 resource "azurerm_virtual_network_peering" "peering_vnet1" {
