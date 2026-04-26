@@ -30,7 +30,7 @@ graph TD
 
     style VNet1 fill:#0078D4,color:#fff
     style VNet2 fill:#0078D4,color:#fff
-
+```
 
 Proof of Deployment (Screenshots from Azure Portal)
 <img src="screenshots/01-vnets.png.png" alt="Resource Group Overview">
