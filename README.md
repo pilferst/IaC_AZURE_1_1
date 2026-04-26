@@ -31,20 +31,11 @@ graph TD
     style VNet1 fill:#0078D4,color:#fff
     style VNet2 fill:#0078D4,color:#fff
 ```
-![Resource Group Overview](screenshots/01-vnets.png.png)
-**Resource Group со всеми созданными ресурсами**
+![](screenshots/01-vnets.png.png)
+**VNETs**
 
-![Virtual Networks](screenshots/02-subnet.png)
-**Две Virtual Network и подсети**
+![](screenshots/02-subnet.png)
+**Vnet1 subnet**
 
-![VNet Peering](screenshots/03-peeringpng.png)
-**Bidirectional VNet Peering (статус Connected)**
---
-
-Proof of Deployment (Screenshots from Azure Portal)
-<img src="screenshots/01-vnets.png.png" alt="Resource Group Overview">
-Created resources
-<img src="screenshots/02-subnet.png" alt="Virtual Networks">
-The first subnet
-<img src="screenshots/03-peeringpng.png" alt="VNet Peering">
-Bidirectional VNet Peering (status: Connected)
+![](screenshots/03-peeringpng.png)
+**Bidirectional VNet Peering (status Connected)**
