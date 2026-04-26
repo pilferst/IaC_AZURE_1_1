@@ -37,5 +37,5 @@ graph TD
 ![](screenshots/02-subnet.png)
 **Vnet1 subnet**
 
-![](screenshots/03-peeringpng.png)
+![](screenshots/03-peering.png)
 **Bidirectional VNet Peering (status Connected)**
