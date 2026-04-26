@@ -31,7 +31,7 @@ graph TD
     style VNet1 fill:#0078D4,color:#fff
     style VNet2 fill:#0078D4,color:#fff
 ```
-![](screenshots/01-vnets.png.png)
+![](screenshots/01-vnets.png)
 **VNETs**
 
 ![](screenshots/02-subnet.png)
