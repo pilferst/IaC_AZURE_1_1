@@ -1,4 +1,3 @@
-# IaC_AZURE_1_1
 # IaC_AZURE_1_1: Azure Virtual Network Peering with Terraform
 
 [![Terraform](https://img.shields.io/badge/Terraform-1.9+-7B42BC?logo=terraform&logoColor=white)](https://www.terraform.io/)
@@ -15,15 +14,15 @@ Clean, production-ready infrastructure built with Terraform best practices.
 ```mermaid
 graph TD
     subgraph "Resource Group: rg-iac-azure-1-1"
-        VNet1[VNet1<br>10.1.0.0/16<br>Western EU]
-        VNet2[VNet2<br>10.2.0.0/16<br>Western EU]
+        VNet1[VNet1<br>10.0.0.0/16<br>East US]
+        VNet2[VNet2<br>10.1.0.0/16<br>East US]
         
         subgraph "VNet1"
-            Subnet1[Subnet1<br>10.1.1.0/24]
+            Subnet1[Subnet1<br>10.0.1.0/24]
         end
         
         subgraph "VNet2"
-            Subnet2[Subnet2<br>10.2.1.0/24]
+            Subnet2[Subnet2<br>10.1.1.0/24]
         end
         
         Peering12[Peering VNet1 ↔ VNet2<br>Bidirectional]
@@ -31,15 +30,3 @@ graph TD
 
     style VNet1 fill:#0078D4,color:#fff
     style VNet2 fill:#0078D4,color:#fff
-
-
-
-Project goal: Demonstrate strong skills in Terraform and Azure Virtual Networking (VNet, Subnet, VNet Peering, NSG, Tags, consistent naming).
-What is created
-
-Resource Group
-2 × Virtual Networks
-2 × Subnets
-Bidirectional VNet Peering
-Tags on all resources
-Local variables for consistent naming
