@@ -45,3 +45,5 @@ terraform.rc
 
 #Azure data
 .env
+
+.terraform.lock.hcl
